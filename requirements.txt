@@ -22,4 +22,5 @@ fastapi
 unicorn
 jinja2
 python-multipart
+
 -e .
