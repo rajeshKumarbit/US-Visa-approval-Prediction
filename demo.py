@@ -5,4 +5,5 @@ import sys
 try:
     a = 1/"10"
 except Exception as e:
+    logging.info() # logging the error
     raise USvisaException(e, sys) from e
